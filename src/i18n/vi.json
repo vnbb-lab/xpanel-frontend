@@ -1,31 +1,31 @@
 {
-  "name": "耗子面板",
+  "name": "Mouse panel",
   "certIndex": {
-    "title": "TLS 证书"
+    "title": "TLS Certificates"
   },
   "containerIndex": {
-    "title": "容器管理"
+    "title": "Quản lý container"
   },
   "cronIndex": {
-    "title": "计划任务"
+    "title": "Scheduled Tasks"
   },
   "fileIndex": {
-    "title": "文件管理"
+    "title": "Quản lý tập tin"
   },
   "homeIndex": {
-    "title": "仪表盘",
-    "website": "网站",
-    "database": "数据库",
-    "cron": "计划任务",
-    "sponsor": "赞助支持",
-    "git": "开源地址",
+    "title": "Bảng điều khiển",
+    "website": "Trang web",
+    "database": "Cơ sở dữ liệu",
+    "cron": "Scheduled Tasks",
+    "sponsor": "Hỗ trợ tài trợ",
+    "git": "Địa chỉ nguồn mở",
     "resources": {
-      "title": "资源使用",
+      "title": "Sử dụng tài nguyên",
       "cpu": {
         "used": "{used} CPU / 共 {total} 线程"
       },
       "memory": {
-        "title": "内存",
+        "title": "Bộ nhớ",
         "physical": {
           "used": "物理内存 使用 {used} / 总共 {total}"
         },
@@ -35,14 +35,14 @@
       }
     },
     "loads": {
-      "title": "系统负载",
+      "title": "Tải hệ thống",
       "load": "{load} 分钟负载",
       "time": "近 {time} 分钟"
     },
     "traffic": {
-      "title": "实时流量",
+      "title": "Real-time traffic",
       "network": {
-        "title": "网络",
+        "title": "Mạng",
         "current": "实时上行 { sent }/s / 实时下行 { received }/s",
         "total": "累计上行 { sent } / 累计下行 { received }"
       },
@@ -319,78 +319,78 @@
     },
     "options": {
       "status": {
-        "finished": "已完成",
-        "waiting": "等待中",
-        "failed": "已失败",
-        "running": "运行中"
+        "finished": "Đã hoàn thành",
+        "waiting": "Đang chờ",
+        "failed": "Thất bại",
+        "running": "Đang chạy"
       }
     },
     "logModal": {
-      "title": "任务日志",
+      "title": "Nhật ký nhiệm vụ",
       "autoRefresh": {
-        "on": "自动刷新开启",
-        "off": "自动刷新关闭"
+        "on": "Bật tự động làm mới",
+        "off": "Tắt tự động làm mới"
       }
     }
   },
   "websiteIndex": {
-    "title": "网站管理",
+    "title": "Quản lý trang web",
     "columns": {
-      "name": "网站名",
-      "status": "运行",
-      "path": "目录",
-      "remark": "备注",
-      "actions": "操作"
+      "name": "Tên trang web",
+      "status": "Trạng thái",
+      "path": "Path",
+      "remark": "Remark",
+      "actions": "Actions"
     },
     "create": {
-      "trigger": "新建网站",
-      "title": "新建网站",
+      "trigger": "Tạo một trang web mới",
+      "title": "Tạo một trang web mới",
       "fields": {
         "name": {
-          "label": "网站名",
-          "placeholder": "网站名建议使用英文，设置后不可修改"
+          "label": "Tên trang web",
+          "placeholder": "Nên đặt tên trang web bằng tiếng Anh và không thể sửa đổi sau khi cài đặt"
         },
         "domains": {
-          "label": "域名"
+          "label": "Tên miền"
         },
         "port": {
-          "label": "端口"
+          "label": "Cổng"
         },
         "phpVersion": {
-          "label": "PHP版本",
-          "placeholder": "选择PHP版本"
+          "label": "Phiên bản PHP",
+          "placeholder": "Chọn phiên bản PHP"
         },
         "db": {
-          "label": "数据库",
-          "placeholder": "选择数据库"
+          "label": "Cơ sở dữ liệu",
+          "placeholder": "Chọn cơ sở dữ liệu"
         },
         "dbName": {
-          "label": "数据库名",
-          "placeholder": "数据库名"
+          "label": "Tên cơ sở dữ liệu",
+          "placeholder": "Tên cơ sở dữ liệu"
         },
         "dbUser": {
-          "label": "数据库用户",
-          "placeholder": "数据库用户"
+          "label": "Người dùng cơ sở dữ liệu",
+          "placeholder": "Người dùng cơ sở dữ liệu"
         },
         "dbPassword": {
-          "label": "数据库密码",
-          "placeholder": "数据库密码"
+          "label": "Mật khẩu cơ sở dữ liệu",
+          "placeholder": "Mật khẩu cơ sở dữ liệu"
         },
         "path": {
-          "label": "目录",
-          "placeholder": "网站根目录（不填默认为建站目录/网站名）"
+          "label": "Thư mục",
+          "placeholder": "Thư mục gốc của website (nếu để trống thì mặc định là directory/website name)"
         },
         "remark": {
-          "label": "备注",
-          "placeholder": "备注"
+          "label": "Lưu ý",
+          "placeholder": "Lưu ý"
         }
       },
       "actions": {
-        "submit": "创建"
+        "submit": "Tạo"
       }
     },
     "edit": {
-      "trigger": "修改默认页"
+      "trigger": "Sửa đổi trang mặc định"
     }
   }
 }
