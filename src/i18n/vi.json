@@ -47,7 +47,7 @@
         "total": "累计上行 { sent } / 累计下行 { received }"
       },
       "disk": {
-        "title": "磁盘",
+        "title": "Đĩa",
         "current": "实时读取 { read }/s / 实时写入 { write }/s",
         "total": "累计读取 { read } / 累计写入 { write }"
       }
@@ -64,16 +64,16 @@
       }
     },
     "system": {
-      "title": "系统信息",
+      "title": "Thông tin hệ thống",
       "columns": {
-        "os": "操作系统",
-        "panel": "面板版本",
-        "uptime": "运行时间",
-        "operate": "操作",
-        "loading": "加载中..."
+        "os": "Hệ điều hành",
+        "panel": "Panel Version",
+        "uptime": "Thời gian chạy",
+        "operate": "Hoạt động",
+        "loading": "Đang tải..."
       },
       "restart": {
-        "label": "重启面板",
+        "label": "Restart Panel",
         "confirm": "确定重启面板吗？",
         "success": "面板重启成功",
         "loading": "面板重启中..."
@@ -125,10 +125,10 @@
     }
   },
   "monitorIndex": {
-    "title": "资源监控"
+    "title": "Giám sát tài nguyên"
   },
   "pluginIndex": {
-    "title": "插件市场",
+    "title": "Thị trường plugin",
     "alerts": {
       "info": "按钮点击一次即可，请勿重复点击以免重复执行！",
       "warning": "升级插件前强烈建议先备份/快照，以免出现问题时无法回滚！",
@@ -149,16 +149,16 @@
       "uninstall": "确定卸载插件 {plugin} 吗？"
     },
     "columns": {
-      "name": "插件名",
-      "description": "描述",
-      "installedVersion": "已装版本",
-      "version": "最新版本",
-      "show": "首页显示",
-      "actions": "操作"
+      "name": "Tên plugin",
+      "description": "Mô tả",
+      "installedVersion": "Phiên bản đã cài đặt",
+      "version": "Phiên bản mới nhất",
+      "show": "Hiển thị trang chủ",
+      "actions": "Hoạt động"
     }
   },
   "safeIndex": {
-    "title": "系统安全",
+    "title": "Bảo mật hệ thống",
     "buttons": {
       "delete": "删除",
       "add": "添加",
@@ -252,48 +252,48 @@
           "placeholder": "admin"
         },
         "ssl": {
-          "label": "面板 SSL"
+          "label": "Panel SSL"
         },
         "path": {
-          "label": "默认建站目录",
+          "label": "Thư mục trang web mặc định",
           "placeholder": "/www/wwwroot"
         },
         "backup": {
-          "label": "默认备份目录",
+          "label": "Thư mục sao lưu mặc định",
           "placeholder": "/www/backup"
         }
       },
       "actions": {
-        "submit": "保存"
+        "submit": "Lưu"
       }
     }
   },
   "sshIndex": {
-    "title": "SSH 终端",
+    "title": "SSH Terminal",
     "alerts": {
-      "save": "保存成功"
+      "save": "Đã lưu thành công"
     },
     "save": {
       "fields": {
         "host": {
-          "label": "主机",
-          "placeholder": "主机"
+          "label": "Máy chủ",
+          "placeholder": "Máy chủ"
         },
         "port": {
-          "label": "端口",
-          "placeholder": "端口"
+          "label": "Cổng",
+          "placeholder": "Cổng"
         },
         "username": {
-          "label": "用户名",
-          "placeholder": "用户名"
+          "label": "Tài khoản",
+          "placeholder": "Tài khoản"
         },
         "password": {
-          "label": "密码",
-          "placeholder": "密码"
+          "label": "Mật khẩu",
+          "placeholder": "Mật khẩu"
         }
       },
       "actions": {
-        "submit": "保存"
+        "submit": "Lưu"
       }
     }
   },
