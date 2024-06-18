@@ -160,14 +160,14 @@
   "safeIndex": {
     "title": "Bảo mật hệ thống",
     "buttons": {
-      "delete": "删除",
-      "add": "添加",
-      "batchDelete": "批量删除"
+      "delete": "Xóa",
+      "add": "Thêm",
+      "batchDelete": "Xóa hàng loạt"
     },
     "columns": {
-      "port": "端口",
-      "protocol": "协议",
-      "actions": "操作"
+      "port": "Cổng",
+      "protocol": "Giao thức",
+      "actions": "Hoạt động"
     },
     "confirm": {
       "delete": "确定删除规则吗？",
