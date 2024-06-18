@@ -1,11 +1,11 @@
 import {
   dateEnUS,
-  dateZhCN,
+  dateViVN,
   enUS,
   type GlobalThemeOverrides,
   type NDateLocale,
   type NLocale,
-  zhCN
+  viVN
 } from 'naive-ui'
 import { darkTheme } from 'naive-ui'
 import type { BuiltInGlobalTheme } from 'naive-ui/es/themes/interface'
@@ -15,7 +15,7 @@ import { getNaiveThemeOverrides, initThemeSettings } from './helpers'
 type ThemeState = Theme.Setting
 
 const locales: Record<string, { locale: NLocale; dateLocale: NDateLocale }> = {
-  zh_CN: { locale: zhCN, dateLocale: dateZhCN },
+  vi: { locale: viVN, dateLocale: dateViVN },
   en: { locale: enUS, dateLocale: dateEnUS }
 }
 

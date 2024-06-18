@@ -30,7 +30,7 @@ export function initThemeSettings(): Theme.Setting {
     warning: '#faad14',
     error: '#f5222d'
   }
-  const language = themeSetting.language || 'zh_CN'
+  const language = themeSetting.language || 'vi'
   return { isMobile, darkMode, sider, header, tab, primaryColor, otherColor, language }
 }
 

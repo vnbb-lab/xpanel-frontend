@@ -39,7 +39,7 @@ const setupPanel = async () => {
     .then((response) => response.json())
     .then((data) => {
       title.value = data.data.name || import.meta.env.VITE_APP_TITLE
-      themeStore.setLanguage(data.data.language || 'zh_CN')
+      themeStore.setLanguage(data.data.language || 'vi')
     })
     .catch((err) => {
       console.error(err)

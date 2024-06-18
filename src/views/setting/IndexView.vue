@@ -20,7 +20,7 @@ const model = ref({
 })
 
 const languages = [
-  { label: '简体中文', value: 'zh_CN' },
+  { label: 'Tiếng Việt', value: 'vi' },
   { label: 'English', value: 'en' }
 ]
 
