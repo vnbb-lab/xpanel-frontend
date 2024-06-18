@@ -18,7 +18,7 @@ async function setupApp() {
       vs: 'https://cdnjs.admincdn.com/monaco-editor/0.48.0/min/vs'
     },
     'vs/nls': {
-      availableLanguages: { '*': 'zh-cn' }
+      availableLanguages: { '*': 'vi' }
     }
   })
   await setupStore(app)
